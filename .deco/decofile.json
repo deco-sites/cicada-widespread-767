@@ -504,11 +504,28 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "pages-to-634666": {
+    "name": "to",
+    "path": "/to",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "redirects-from-686153": {
+    "redirect": {
+      "from": "/from",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
   "site": {
     "__resolveType": "site/apps/site.ts",
     "routes": [
       {
         "__resolveType": "website/loaders/pages.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirects.ts"
       }
     ],
     "seo": {
@@ -533,25 +550,27 @@
       "__resolveType": "Neutral"
     }
   },
-  "redirects-malu-88331": {
+  "redirects-hello-477718": {
     "redirect": {
       "from": "/malu",
-      "to": "/malu",
-      "type": "permanent"
+      "to": "/malu123",
+      "type": "temporary"
     },
     "__resolveType": "website/loaders/redirect.ts"
   },
-  "redirects-from-686153": {
-    "redirect": {
-      "from": "/from",
-      "to": "/to",
-      "type": "permanent"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
+  "redirects-malu2-361364": {
+    "from": "/malu2",
+    "to": "/to",
+    "type": "permanent"
   },
-  "pages-to-634666": {
-    "name": "to",
-    "path": "/to",
+  "redirects-malu2-816810": {
+    "from": "/malu2",
+    "to": "/to",
+    "type": "permanent"
+  },
+  "pages-Malu-768418": {
+    "name": "Malu",
+    "path": "/malu123",
     "sections": [],
     "__resolveType": "website/pages/Page.tsx"
   }
