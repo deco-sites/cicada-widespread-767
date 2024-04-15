@@ -436,6 +436,12 @@
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
   },
+  "pages-Baby-372731": {
+    "name": "Baby",
+    "path": "/baby",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-Blog%20Post%20Page-827555": {
     "name": "Blog Post Page",
     "path": "/blog/:slug",
@@ -511,6 +517,14 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "redirects-baby123-892239": {
+    "redirect": {
+      "from": "/baby123",
+      "to": "/baby",
+      "type": "temporary"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
   "redirects-from-686153": {
     "redirect": {
       "from": "/from",
@@ -568,19 +582,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "pages-Baby-372731": {
-    "name": "Baby",
-    "path": "/baby123",
-    "sections": [],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "redirects-baby123-892239": {
-    "redirect": {
-      "from": "/baby123",
-      "to": "/baby",
-      "type": "temporary"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
   }
 }
