@@ -436,12 +436,6 @@
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
   },
-  "pages-Baby-372731": {
-    "name": "Baby",
-    "path": "/baby",
-    "sections": [],
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "pages-Blog%20Post%20Page-827555": {
     "name": "Blog Post Page",
     "path": "/blog/:slug",
@@ -478,12 +472,6 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
-  "pages-Malu-768418": {
-    "name": "Malu",
-    "path": "/malu123",
-    "sections": [],
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "pages-home-5afd25174424": {
     "name": "Home",
     "path": "/",
@@ -517,27 +505,11 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
-  "redirects-baby123-892239": {
-    "redirect": {
-      "from": "/baby123",
-      "to": "/baby",
-      "type": "temporary"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
-  },
   "redirects-from-686153": {
     "redirect": {
       "from": "/from",
       "to": "/to",
       "type": "permanent"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
-  },
-  "redirects-hello-477718": {
-    "redirect": {
-      "from": "/luiza",
-      "to": "/malu123",
-      "type": "temporary"
     },
     "__resolveType": "website/loaders/redirect.ts"
   },
@@ -582,13 +554,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "redirects-malu-48231": {
-    "redirect": {
-      "from": "https://www.linkedin.com/in/marialuizafaires/",
-      "to": "/malu",
-      "type": "permanent"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
   }
 }
