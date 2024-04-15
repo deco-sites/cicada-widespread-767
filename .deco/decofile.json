@@ -566,7 +566,25 @@
   "pages-Maria%20linkedin-328344": {
     "name": "Maria linkedin",
     "path": "/maria",
-    "sections": [],
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "redirects-luiza-144022": {
+    "redirect": {
+      "from": "/luiza",
+      "to": "/maria",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   }
 }

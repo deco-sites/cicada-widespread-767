@@ -1,1 +1,1 @@
-{"name":"Maria linkedin","path":"/maria","sections":[],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Maria linkedin","path":"/maria","sections":[{"__resolveType":"Header"},{"__resolveType":"Preview /sections/BlogPosts.tsx"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
