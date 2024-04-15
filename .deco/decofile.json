@@ -554,5 +554,13 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "redirects-maria-649021": {
+    "redirect": {
+      "from": "/maria",
+      "to": "https://www.linkedin.com/in/marialuizafaires/",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   }
 }
