@@ -536,7 +536,7 @@
   "redirects-hello-477718": {
     "redirect": {
       "from": "/malu",
-      "to": "/malu123",
+      "to": "https://www.linkedin.com/in/marialuizafaires/",
       "type": "temporary"
     },
     "__resolveType": "website/loaders/redirect.ts"
