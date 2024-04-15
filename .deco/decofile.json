@@ -535,8 +535,8 @@
   },
   "redirects-hello-477718": {
     "redirect": {
-      "from": "/malu",
-      "to": "https://www.linkedin.com/in/marialuizafaires/",
+      "from": "/luiza",
+      "to": "/malu123",
       "type": "temporary"
     },
     "__resolveType": "website/loaders/redirect.ts"
@@ -582,5 +582,13 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "redirects-malu-48231": {
+    "redirect": {
+      "from": "/malu",
+      "to": "https://www.linkedin.com/in/marialuizafaires/",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   }
 }
