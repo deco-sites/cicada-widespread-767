@@ -586,5 +586,26 @@
       "type": "permanent"
     },
     "__resolveType": "website/loaders/redirect.ts"
+  },
+  "pages-Malu-351505": {
+    "name": "Malu",
+    "path": "/malu123",
+    "sections": [
+      {
+        "__resolveType": "Preview /sections/BlogPost.tsx"
+      },
+      {
+        "__resolveType": "Preview /sections/Testimonials.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "redirects-malu-422491": {
+    "redirect": {
+      "from": "/malu",
+      "to": "/malu123",
+      "type": "temporary"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   }
 }
