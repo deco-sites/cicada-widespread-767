@@ -472,6 +472,12 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "pages-Malu-768418": {
+    "name": "Malu",
+    "path": "/malu123",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-home-5afd25174424": {
     "name": "Home",
     "path": "/",
@@ -499,15 +505,10 @@
         }
       },
       {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {}
       }
     ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "pages-to-634666": {
-    "name": "to",
-    "path": "/to",
-    "sections": [],
     "__resolveType": "website/pages/Page.tsx"
   },
   "redirects-from-686153": {
@@ -517,6 +518,24 @@
       "type": "permanent"
     },
     "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-hello-477718": {
+    "redirect": {
+      "from": "/malu",
+      "to": "/malu123",
+      "type": "temporary"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-malu2-361364": {
+    "from": "/malu2",
+    "to": "/to",
+    "type": "permanent"
+  },
+  "redirects-malu2-816810": {
+    "from": "/malu2",
+    "to": "/to",
+    "type": "permanent"
   },
   "site": {
     "__resolveType": "site/apps/site.ts",
@@ -550,28 +569,18 @@
       "__resolveType": "Neutral"
     }
   },
-  "redirects-hello-477718": {
+  "pages-Baby-372731": {
+    "name": "Baby",
+    "path": "/baby123",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "redirects-baby123-892239": {
     "redirect": {
-      "from": "/malu",
-      "to": "/malu123",
+      "from": "/baby123",
+      "to": "/baby",
       "type": "temporary"
     },
     "__resolveType": "website/loaders/redirect.ts"
-  },
-  "redirects-malu2-361364": {
-    "from": "/malu2",
-    "to": "/to",
-    "type": "permanent"
-  },
-  "redirects-malu2-816810": {
-    "from": "/malu2",
-    "to": "/to",
-    "type": "permanent"
-  },
-  "pages-Malu-768418": {
-    "name": "Malu",
-    "path": "/malu123",
-    "sections": [],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
