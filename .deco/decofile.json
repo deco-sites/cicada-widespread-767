@@ -562,5 +562,11 @@
       "type": "permanent"
     },
     "__resolveType": "website/loaders/redirect.ts"
+  },
+  "pages-Maria%20linkedin-328344": {
+    "name": "Maria linkedin",
+    "path": "/maria",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
