@@ -585,8 +585,8 @@
   },
   "redirects-malu-48231": {
     "redirect": {
-      "from": "/malu",
-      "to": "https://www.linkedin.com/in/marialuizafaires/",
+      "from": "https://www.linkedin.com/in/marialuizafaires/",
+      "to": "/malu",
       "type": "permanent"
     },
     "__resolveType": "website/loaders/redirect.ts"
