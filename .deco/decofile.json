@@ -472,6 +472,22 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "pages-Maria%20linkedin-328344": {
+    "name": "Maria linkedin",
+    "path": "/maria",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "Preview /sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-home-5afd25174424": {
     "name": "Home",
     "path": "/",
@@ -500,7 +516,12 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
-        "subscribe": {}
+        "subscribe": {
+          "title": "Subscribe now",
+          "description": "Enter your email and get notified about out product",
+          "instructions": "<p>:)</p>"
+        },
+        "bottomLinks": []
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -513,6 +534,22 @@
     },
     "__resolveType": "website/loaders/redirect.ts"
   },
+  "redirects-luiza-144022": {
+    "redirect": {
+      "from": "/luiza",
+      "to": "/maria",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-malu-422491": {
+    "redirect": {
+      "from": "/malu",
+      "to": "/malu123",
+      "type": "temporary"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
   "redirects-malu2-361364": {
     "from": "/malu2",
     "to": "/to",
@@ -522,6 +559,14 @@
     "from": "/malu2",
     "to": "/to",
     "type": "permanent"
+  },
+  "redirects-maria-649021": {
+    "redirect": {
+      "from": "/maria",
+      "to": "https://www.linkedin.com/in/marialuizafaires/",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   },
   "site": {
     "__resolveType": "site/apps/site.ts",
@@ -552,40 +597,8 @@
     },
     "firstByteThresholdMS": false,
     "theme": {
-      "__resolveType": "Neutral"
+      "__resolveType": "Groovy Vibes"
     }
-  },
-  "redirects-maria-649021": {
-    "redirect": {
-      "from": "/maria",
-      "to": "https://www.linkedin.com/in/marialuizafaires/",
-      "type": "permanent"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
-  },
-  "pages-Maria%20linkedin-328344": {
-    "name": "Maria linkedin",
-    "path": "/maria",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "Preview /sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "redirects-luiza-144022": {
-    "redirect": {
-      "from": "/luiza",
-      "to": "/maria",
-      "type": "permanent"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
   },
   "pages-Malu-351505": {
     "name": "Malu",
@@ -600,12 +613,27 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
-  "redirects-malu-422491": {
-    "redirect": {
-      "from": "/malu",
-      "to": "/malu123",
-      "type": "temporary"
-    },
-    "__resolveType": "website/loaders/redirect.ts"
+  "pages-My%20New%20Page-616015": {
+    "name": "My New Page",
+    "path": "/malu-page",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "collections/blog/posts/226544b533f5": {
+    "name": "collections/blog/posts/226544b533f5",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "categories": [],
+      "title": "Teste Malu",
+      "excerpt": "Isso é um teste",
+      "date": "2024-04-18",
+      "slug": "/",
+      "content": "<p>Testando adicionar um blog</p>"
+    }
   }
 }
