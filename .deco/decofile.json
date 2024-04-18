@@ -573,7 +573,7 @@
       "title": "Mais um teste",
       "excerpt": "Isso é um teste",
       "date": "2024-04-18",
-      "slug": "/malu-teste",
+      "slug": "malu-teste",
       "content": "<p>Esse é mais um teste do blog</p>"
     }
   }
