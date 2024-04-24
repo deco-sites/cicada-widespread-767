@@ -329,6 +329,32 @@
       "excerpt": "We believe in a web that is simple, scalable, and collaborative. A web where anyone can test ideas and build without fear. Let's make that vision a reality."
     }
   },
+  "collections/blog/posts/226544b533f5": {
+    "name": "collections/blog/posts/226544b533f5",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "categories": [],
+      "title": "Teste Malu",
+      "excerpt": "Isso é um teste",
+      "date": "2024-04-18",
+      "slug": "/",
+      "content": "<p>Testando adicionar um blog</p>"
+    }
+  },
+  "collections/blog/posts/29fdf26dc829": {
+    "name": "collections/blog/posts/29fdf26dc829",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "categories": [],
+      "title": "Mais um teste",
+      "excerpt": "Isso é um teste",
+      "date": "2024-04-18",
+      "slug": "malu-teste",
+      "content": "<p>Esse é mais um teste do blog</p>"
+    }
+  },
   "collections/blog/posts/4381a46ca720": {
     "name": "collections/blog/posts/4381a46ca720",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -358,7 +384,19 @@
     "apps": []
   },
   "hero": {
-    "__resolveType": "site/sections/Hero.tsx"
+    "__resolveType": "site/sections/Hero.tsx",
+    "title": "Click here to tweak this text however you want.",
+    "placement": "left",
+    "cta": [
+      {
+        "title": {},
+        "id": "teste",
+        "href": "https://deco.cx/",
+        "text": "Click me",
+        "outline": true
+      }
+    ],
+    "description": "\"This text is entirely editable, tailor it freely.\""
   },
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts",
@@ -400,6 +438,22 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "pages-Malu-351505": {
+    "name": "Malu",
+    "path": "/malu123",
+    "sections": [
+      {
+        "__resolveType": "Preview /sections/BlogPost.tsx"
+      },
+      {
+        "__resolveType": "Preview /sections/Testimonials.tsx"
+      },
+      {
+        "__resolveType": "Faq - default"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-Maria%20linkedin-328344": {
     "name": "Maria linkedin",
     "path": "/maria",
@@ -409,6 +463,28 @@
       },
       {
         "__resolveType": "Preview /sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "pages-My%20New%20Page-616015": {
+    "name": "My New Page",
+    "path": "/malu-page",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "hero"
+      },
+      {
+        "__resolveType": "Preview /sections/BlogPost.tsx"
+      },
+      {
+        "__resolveType": "Faq - default"
       },
       {
         "__resolveType": "Footer"
@@ -526,55 +602,6 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Groovy Vibes"
-    }
-  },
-  "pages-Malu-351505": {
-    "name": "Malu",
-    "path": "/malu123",
-    "sections": [
-      {
-        "__resolveType": "Preview /sections/BlogPost.tsx"
-      },
-      {
-        "__resolveType": "Preview /sections/Testimonials.tsx"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "pages-My%20New%20Page-616015": {
-    "name": "My New Page",
-    "path": "/malu-page",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "collections/blog/posts/226544b533f5": {
-    "name": "collections/blog/posts/226544b533f5",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [],
-      "categories": [],
-      "title": "Teste Malu",
-      "excerpt": "Isso é um teste",
-      "date": "2024-04-18",
-      "slug": "/",
-      "content": "<p>Testando adicionar um blog</p>"
-    }
-  },
-  "collections/blog/posts/29fdf26dc829": {
-    "name": "collections/blog/posts/29fdf26dc829",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [],
-      "categories": [],
-      "title": "Mais um teste",
-      "excerpt": "Isso é um teste",
-      "date": "2024-04-18",
-      "slug": "malu-teste",
-      "content": "<p>Esse é mais um teste do blog</p>"
     }
   }
 }

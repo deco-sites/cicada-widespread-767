@@ -1,1 +1,1 @@
-{"name":"My New Page","path":"/malu-page","sections":[{"__resolveType":"Header"}],"__resolveType":"website/pages/Page.tsx"}
+{"name":"My New Page","path":"/malu-page","sections":[{"__resolveType":"Header"},{"__resolveType":"hero"},{"__resolveType":"Preview /sections/BlogPost.tsx"},{"__resolveType":"Faq - default"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}

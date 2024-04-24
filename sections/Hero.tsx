@@ -9,14 +9,26 @@ export interface CTA {
 }
 
 export interface Props {
-  /** 
-   * @format rich-text
-   * @default Click here to tweak this text however you want.
-   */
+  /**
+  * @format rich-text
+  * @default Click here to tweak this text however you want.
+  */
   title?: string;
+  /**
+   * @description The description of the hero section.
+   */
   description?: string;
+  /**
+   * @description The image to display in the hero section.
+   */
   image?: ImageWidget;
+  /**
+   * @description The placement of the content in the hero section.
+   */
   placement?: "left" | "right";
+  /**
+   * @description The call to action button configuration.
+   */
   cta?: CTA[];
 }
 
@@ -33,7 +45,7 @@ export default function HeroFlats({
   cta,
 }: Props) {
   return (
-    <div>
+    <div class="rounded-md p-4">
       <div class="flex flex-col gap-8 items-center mx-auto">
         <div
           class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
@@ -43,7 +55,7 @@ export default function HeroFlats({
           } lg:pt-36 lg:pb-20 gap-12 md:gap-20 items-center`}
         >
           {image && (
-            <Image
+            <img
               width={640}
               class="lg:w-1/2 object-fit w-full"
               sizes="(max-width: 640px) 100vw, 30vw"
@@ -67,7 +79,7 @@ export default function HeroFlats({
               }}
             >
             </div>
-            <p class="leading-[150%] md:text-md text-lg">
+            <p class="leading-[150%] md:text-md text-lg bg-red-500 hover:bg-yellow-300 rounded-md p-2 cursor-pointer transition-colors">
               {description}
             </p>
             {cta && cta.length > 0 &&
