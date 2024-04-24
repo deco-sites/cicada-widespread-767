@@ -449,7 +449,16 @@
         "__resolveType": "Preview /sections/Testimonials.tsx"
       },
       {
+        "__resolveType": "hero"
+      },
+      {
+        "__resolveType": "hero"
+      },
+      {
         "__resolveType": "Faq - default"
+      },
+      {
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
